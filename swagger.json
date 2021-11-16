@@ -1,0 +1,26 @@
+{
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "schemes": [
+    "http"
+  ],
+  "swagger": "2.0",
+  "info": {
+    "description": "Documentation for Product API",
+    "title": "of Product API",
+    "version": "1.0.0"
+  },
+  "basePath": "/",
+  "paths": {
+    "/products": {
+      "get": {
+        "description": "Returns a list of products\nrespnses:\n200: productResponse",
+        "operationId": "listProducts"
+      }
+    }
+  }
+}
